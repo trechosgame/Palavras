@@ -1,1 +1,22 @@
-
+#container
+{
+  width:810px;
+  height:650px;
+  margin: 0px auto;
+}
+#hint
+{
+  width: 200px;
+  height: 625px;
+  float:left;
+  text-align:center;
+  font-size: 30px;
+  border:1px solid black;
+}
+#letters
+{
+  width:600px;
+  heigth:625px;
+  border:1px solid black;
+  float:right;
+}
