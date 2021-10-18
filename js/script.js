@@ -6,5 +6,5 @@ function arrangeGame()
 {
   $.each(myWords, function(key, item){
       $("#hint").append("<p>" + item + "</p>");
-  })
+  });
 }
