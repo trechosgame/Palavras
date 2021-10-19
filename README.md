@@ -1,2 +1,2 @@
-https://maisquejogos.github.io/Cruzadinha/
+https://maisquejogos.github.io/Cruzadinha/app.html
 # CROSSWORD
