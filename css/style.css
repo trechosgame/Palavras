@@ -7,7 +7,7 @@
 #hint
 {
   width: 200px;
-  height: 625px;
+  height: 570px;
   float:left;
   text-align:center;
   font-size: 30px;
@@ -15,9 +15,8 @@
 }
 #letters
 {
-  width:600px;
-  heigth:625px;
-  border:1px solid black;
+  width:580px;
+  heigth:580px;
   float:right;
 }
 .individual
