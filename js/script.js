@@ -14,17 +14,32 @@ function arrangeGame()
        $("#letters").append("<div class=individual data-row=" + i + " data-column=" + j + "></div>");
      }
   }
-  placeCorrectLetters();
+  placeCorrectLetters(myWord);
 }
-function placeCorrectLetters()
+function placeCorrectLetters(myArr)
 {
     var positions = ["row","column","diagonal"];
-    var orientation = 
+    for(var i=;<i<myArr.length;i++)
+    {var orientation = 
     positions[Math.floor(Math.random()*positions.length)];
     alert(orientation);
     var start = 
     Math.floor(Math.random()*$(".individual").length;
     var myRow = $(".individual:eq(" + start + 
     ")").data("row");
-    var myColumn = $(".individual:eq(" + start + ")").data("column") // parei em 1:37  no 4 video
+    var myColumn = $(".individual:eq(" + start +
+    ")").data("column");
+    $(".individual:eq("+ start + ")").html("A");
+    //console.log(myArr[i] + " : " + orientation + " : " start + " : " + myRow + " : " + myColumn);
+     if(orientation == row)
+         {
+           if((myColumn*1) + myArr[i].length <=12)
+               console.log("space in row: " + myArr[i] + " : 
+               " + start);
+           else
+               console.log("space in row: " + myArr[i] + 
+               " : " + start)
+         }
+        
+    }
 }
