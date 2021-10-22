@@ -14,4 +14,14 @@ function arrangeGame()
        $("#letters").append("<div class=individual data-row=" + i + " data-column=" + j + "></div>");
      }
   }
+  placeCorrectLetters();
+}
+function placeCorrectLetters()
+{
+    var positions = ["row","column","diagonal"];
+    var orientation = 
+    positions[Math.floor(Math.random()*positions.length)];
+    alert(orientation);
+    var start = 
+    Math.floor(Math.random()*$(".individual").length;
 }
