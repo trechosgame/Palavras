@@ -38,8 +38,17 @@ function placeCorrectLetters(myArr)
                " + start);
            else
                console.log("space in row: " + myArr[i] + 
-               " : " + start)
+               " : " + start);
          }
-        
+        else if(orientation == "column")
+         {
+                
+           if((myRow*1) + myArr[i].length <=12)
+               console.log("space in column: " + myArr[i] + " : 
+               " + start);
+           else
+               console.log("space in column: " + myArr[i] + 
+               " : " + start);
+         }
     }
 }
