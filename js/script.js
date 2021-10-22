@@ -24,4 +24,7 @@ function placeCorrectLetters()
     alert(orientation);
     var start = 
     Math.floor(Math.random()*$(".individual").length;
+    var myRow = $(".individual:eq(" + start + 
+    ")").data("row");
+    var myColumn = $(".individual:eq(" + start + ")").data("column") // parei em 1:37  no 4 video
 }
