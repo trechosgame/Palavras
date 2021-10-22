@@ -18,7 +18,7 @@ function arrangeGame()
 }
 function placeCorrectLetters(myArr)
 {
-    var positions = ["row","column","diagonal"];
+    var positions = ["row","column"];
     for(var i=;<i<myArr.length;i++)
     {var orientation = 
     positions[Math.floor(Math.random()*positions.length)];
@@ -35,7 +35,7 @@ function placeCorrectLetters(myArr)
          {
            if((myColumn*1) + myArr[i].length <=12)
                console.log("space in row: " + myArr[i] + " : 
-               " + start);
+               " + start + " : " + myColumn);
            else
                console.log("space in row: " + myArr[i] + 
                " : " + start);
