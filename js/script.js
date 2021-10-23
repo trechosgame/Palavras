@@ -31,19 +31,32 @@ function placeCorrectLetters(myArr)
     ")").data("column");
     $(".individual:eq("+ start + ")").html("A");
     //console.log(myArr[i] + " : " + orientation + " : " start + " : " + myRow + " : " + myColumn);
-     if(orientation == row)
-         {
-           if((myColumn*1) + myArr[i].length <=12)
-               console.log("space in row: " + myArr[i] + " : 
-               " + start + " : " + myColumn);
-           else
-               console.log("space in row: " + myArr[i] + 
-               " : " + start + " : " + myColumn);
+     var newStart = 0;
+     if(orientation == "row")
+     {
+            if((myColumn*1) + myArr[i].length <=12)
+            {
+                   newStart = start;
+                   console.log("space in row: " + myArr[i] + " : 
+                   " + start + " : " + myColumn);
+            }
+            else
+               {   
+                   var newColumn = 12 - myArr[i].leng;
+                   newStart = $(".individual[data-row=" + myRow
+                   + "][data-column=" + newColumn + 
+                   "]" ).index();
+                   console.log("space in row: " + myArr[i] + 
+                   " : " + start + " : " + myColumn + " : " + newStart);
+               }
          }
         else if(orientation == "column")
          {
                 
            if((myRow*1) + myArr[i].length <=12)
+           {
+           
+            }
                console.log("space in column: " + myArr[i] + " : 
                " + start + " : " + myRow);
            else
