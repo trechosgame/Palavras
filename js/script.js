@@ -19,21 +19,22 @@ function arrangeGame()
 function placeCorrectLetters(myArr)
 {
     var positions = ["row","column"];
+    var nextLetter = 0; var newStart = 0;
     for(var i=;<i<myArr.length;i++)
-    {var orientation = 
-    positions[Math.floor(Math.random()*positions.length)];
-    alert(orientation);
-    var start = 
-    Math.floor(Math.random()*$(".individual").length;
-    var myRow = $(".individual:eq(" + start + 
-    ")").data("row");
-    var myColumn = $(".individual:eq(" + start +
-    ")").data("column");
-    $(".individual:eq("+ start + ")").html("A");
-    //console.log(myArr[i] + " : " + orientation + " : " start + " : " + myRow + " : " + myColumn);
-     var newStart = 0;
-     if(orientation == "row")
-     {
+    {
+        var orientation = 
+        positions[Math.floor(Math.random()*positions.length)];
+        var start = 
+        Math.floor(Math.random()*$(".individual").length);
+        var myRow = $(".individual:eq(" + start + 
+        ")").data("row");
+        var myColumn = $(".individual:eq(" + start +
+        ")").data("column");
+        //console.log(myArr[i] + " : " + orientation + " : " start + " : " + myRow + " : " + myColumn);
+       
+        if(orientation == "row")
+        {
+            nextLetter = 1;
             if((myColumn*1) + myArr[i].length <=12)
             {
                    newStart = start;
@@ -53,7 +54,7 @@ function placeCorrectLetters(myArr)
          }
         else if(orientation == "column")
          {
-                
+           nextLetter = 12;    
            if((myRow*1) + myArr[i].length <=12)
            {
                newStart = start;
@@ -65,9 +66,18 @@ function placeCorrectLetters(myArr)
                  var newRow = 12 - myArr[i].length;
                    newStart = $(".individual[data-row=" + newRow " + "][data-column=" + myColumn + "]").index();
                  console.log("no space in column: " + myArr[i] 
-                 + " : " + start + " : " + myRow + " : " + newStart);
+                 + " : " + start + " : " + myRow + " : " + 
+                 newStart);
                }
                
          }
+         var characters = myArr[i].slipt("");
+         var nextPosition = 0;
+         $.each(characters, function(key, item){
+             console.log(item);
+             $(".individual:eq(" + (newStar+nextPosition) + ")").html(item);
+             nextPosition += nextLetter;
+         
+         })
     }
 }
