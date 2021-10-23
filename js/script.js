@@ -42,12 +42,13 @@ function placeCorrectLetters(myArr)
             }
             else
                {   
-                   var newColumn = 12 - myArr[i].leng;
+                   var newColumn = 12 - myArr[i].lenght;
                    newStart = $(".individual[data-row=" + myRow
                    + "][data-column=" + newColumn + 
                    "]" ).index();
-                   console.log("space in row: " + myArr[i] + 
-                   " : " + start + " : " + myColumn + " : " + newStart);
+                   console.log("no space in row: " + myArr[i] + 
+                   " : " + start + " : " + myColumn + " : " + 
+                               newStart);
                }
          }
         else if(orientation == "column")
@@ -55,13 +56,18 @@ function placeCorrectLetters(myArr)
                 
            if((myRow*1) + myArr[i].length <=12)
            {
-           
-            }
+               newStart = start;
                console.log("space in column: " + myArr[i] + " : 
                " + start + " : " + myRow);
+           }
            else
-               console.log("space in column: " + myArr[i] + " : 
-               " + start + " : " + myRow);
+               { 
+                 var newRow = 12 - myArr[i].length;
+                   newStart = $(".individual[data-row=" + newRow " + "][data-column=" + myColumn + "]").index();
+                 console.log("no space in column: " + myArr[i] 
+                 + " : " + start + " : " + myRow + " : " + newStart);
+               }
+               
          }
     }
 }
