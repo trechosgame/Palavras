@@ -14,7 +14,7 @@ function arrangeGame()
        $("#letters").append("<div class=individual data-row=" + i + " data-column=" + j + "></div>");
      }
   }
-  placeCorrectLetters(myWord);
+  placeCorrectLetters(myWords);
 }
 function placeCorrectLetters(myArr)
 {
