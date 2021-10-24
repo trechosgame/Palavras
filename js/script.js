@@ -19,8 +19,8 @@ function arrangeGame()
 function placeCorrectLetters(myArr)
 {
     var positions = ["row","column"];
-    var nextLetter = 0; var newStart = 0;
-    for(var i=;<i<myArr.length;i++)
+    var nextLetter = 0;var newStart = 0;
+    for(var i=0;i<myArr.length;i++)
     {
         var orientation = 
         positions[Math.floor(Math.random()*positions.length)];
@@ -31,15 +31,13 @@ function placeCorrectLetters(myArr)
         var myColumn = $(".individual:eq(" + start +
         ")").data("column");
         //console.log(myArr[i] + " : " + orientation + " : " start + " : " + myRow + " : " + myColumn);
-       
         if(orientation == "row")
         {
             nextLetter = 1;
             if((myColumn*1) + myArr[i].length <=12)
             {
                    newStart = start;
-                   console.log("space in row: " + myArr[i] + " : 
-                   " + start + " : " + myColumn);
+                   console.log("space in row: " + myArr[i] + " : " + start + " : " + myColumn);
             }
             else
                {   
@@ -49,33 +47,35 @@ function placeCorrectLetters(myArr)
                    "]" ).index();
                    console.log("no space in row: " + myArr[i] + 
                    " : " + start + " : " + myColumn + " : " + 
-                               newStart);
+                   newStart);
                }
          }
-        else if(orientation == "column")
+         else if(orientation == "column")
          {
            nextLetter = 12;    
            if((myRow*1) + myArr[i].length <=12)
            {
                newStart = start;
-               console.log("space in column: " + myArr[i] + " : 
-               " + start + " : " + myRow);
+               console.log("space in column: " + myArr[i] + 
+               " : " + start + " : " + myRow);
            }
            else
                { 
                  var newRow = 12 - myArr[i].length;
-                   newStart = $(".individual[data-row=" + newRow " + "][data-column=" + myColumn + "]").index();
+                 newStart = $(".individual[data-row=" + newRow 
+                 + "][data-column=" + newColumn + 
+                 "]").index();
                  console.log("no space in column: " + myArr[i] 
-                 + " : " + start + " : " + myRow + " : " + 
+                 + " : " + start + " : " + myRow  + ":" +
                  newStart);
                }
-               
-         }
-         var characters = myArr[i].slipt("");
-         var nextPosition = 0;
-         $.each(characters, function(key, item){
+           }
+           var characters = myArr[i].slipt("");
+           var nextPosition = 0;
+           $.each(characters, function(key, item){
              console.log(item);
-             $(".individual:eq(" + (newStar+nextPosition) + ")").html(item);
+             $(".individual:eq(" + (newStar+nextPosition) + 
+             ")").html(item);
              nextPosition += nextLetter;
          
          })
