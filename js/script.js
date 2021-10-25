@@ -12,8 +12,7 @@ function arrangeGame()
       for(var j=1;j<=12;j++)
       {
           $("#letters").append("div class=individual data-
-          row=" + i +  " data-column=" + j + "></div>")
-      
+          row=" + i +  " data-column=" + j + "></div>");
       }
   
   }
