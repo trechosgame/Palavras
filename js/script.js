@@ -24,5 +24,11 @@ function placeCorrectLetters()
   var orientation = 
   positions[Math.floor(Math.random()*positions.length)];
   alert(orientation);
-  var start = Math.floor(Math.random()*(".individual").length);
+  var start = 
+  Math.floor(Math.random()*(".individual").length);
+  var myRow = $(".individual:eq(" + start + 
+  ")").data("row");
+  var myColumn = $(".individual:eq(" + start +
+  ")").data("column");
+  $(".individual:eq(" + start ")").html("A");
 }
