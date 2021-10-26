@@ -16,4 +16,12 @@ function arrangeGame()
       }
   
   }
+  placeCorrectLetters();
+}
+function placeCorrectLetters()
+{
+  var pisitions = ["row","column","diagonal"];
+  var orientation = 
+  positions[Math.floor(Math.random()*positions.length)];
+  alert(orientation);
 }
