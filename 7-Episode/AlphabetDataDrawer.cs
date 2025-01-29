@@ -2,17 +2,16 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
-using UnityEngine;
 using UnityEditor;
 using UnityEditorInternal;
+using UnityEngine;
 
 [CustomEditor(typeof(AlphabetData))]
 [CandEditMultipleObjects]
 [System.Serializable]
-
-public class AlphabetDataDrawer : Editor
+public class AlphabetDataDrawer : ScriptableObject
 {
-    private ReorderableList AlphabetPlainList; 
+   private ReorderableList AlphabetPlainList; 
     private ReorderableList AlphabetNormalList;
     private ReorderableList AlphabetHighlightedList;
     private ReorderableList AlphabetWrongList;
@@ -59,5 +58,5 @@ public class AlphabetDataDrawer : Editor
                    new Rect(rect.x + 70, rect.y, rect.widht - 30, EditorGUIUtility.singleLineHeight),
                    element.FindPropertyRelative("image"), GUIContent.none);
             };
-    }
+    } 
 }
