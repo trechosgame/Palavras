@@ -2,16 +2,16 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
-using UnityEngine;
 using UnityEditor;
 using UnityEditorInternal;
+using UnityEngine;
 
 [System.Serializable]
 [CreateAssetMenu]
 
 public class AlphabetData : ScriptableObject
-{ 
-   [System.Serializable]
+{
+    [System.Serializable]
    public class LetterData
    {
       public string letter;
