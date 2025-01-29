@@ -2,14 +2,15 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
-using UnityEngine;
 using UnityEditor;
 using UnityEditorInternal;
+using UnityEngine;
+
 [System.Serializable]
 [CreateAssetMenu]
 public class BoardData : ScriptableObject
 {
-    [System.Serializable]
+   [System.Serializable]
 
     public class SearchingWord
     {
@@ -64,5 +65,5 @@ public class BoardData : ScriptableObject
         {
             Board[i] = new BoardRow(Rows);
         }
-    }
+    } 
 }
