@@ -2,16 +2,16 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
-using UnityEngine;
 using UnityEditor;
 using UnityEditorInternal;
+using UnityEngine;
 
 [CustomEditor(typeof(BoardData), false)]
 [CanEditMultipleObjects]
 [System.Serializable]
-public class BoardDataDrawer : Editor
+public class BoardDataDrawer : ScriptableObject
 {
-   private BoardData GameDataInstance => target as BoardData; 
+    private BoardData GameDataInstance => target as BoardData; 
    private ReorderableList _dataList;
 
    private void OnEnable()
