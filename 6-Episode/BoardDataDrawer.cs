@@ -85,7 +85,7 @@ public class BoardDataDrawer : Editor
       for(var x = 0; x < GameDataInstance.Columns; x++)
       {
          EditorGUILayout.BeginVertical(x == -1 ? headerColumnStyle : columnStyle);
-         for(var y - 0; y < GameDataInstance.Rows; y++)
+         for(var y = 0; y < GameDataInstance.Rows; y++)
          {
             if(x >= 0 && y >= 0)
             {
