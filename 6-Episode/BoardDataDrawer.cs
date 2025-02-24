@@ -79,7 +79,7 @@ public class BoardDataDrawer : Editor
 
       textFieldStyle.normal.background = Texture2D.grayTexture;
       textFieldStyle.normal.textColor = Color.white;
-      textFieldStyle.fontStyle = fontStyle.Bold;
+      textFieldStyle.fontStyle = FontStyle.Bold;
       textFieldStyle.alignment = TextAnchor.MiddleCenter;
       EditorGUILayout.BeginHorizontal(tableStyle);
       for(var x = 0; x < GameDataInstance.Columns; x++)
