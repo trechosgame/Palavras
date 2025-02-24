@@ -73,14 +73,14 @@ public class BoardDataDrawer : Editor
       var rowStyle = new GUIStyle();
       rowStyle.fixedHeight = 25;
       rowStyle.fixedWidth = 40;
-      rowStyle.aligment = TextAnchor.MiddleCenter;
+      rowStyle.alignment = TextAnchor.MiddleCenter;
 
       var textFieldStyle = new GUIStyle();
 
       textFieldStyle.normal.background = Texture2D.grayTexture;
       textFieldStyle.normal.textColor = Color.white;
       textFieldStyle.fontStyle = fontStyle.Bold;
-      textFieldStyle.aligment = TextAnchor.MiddleCenter;
+      textFieldStyle.alignment = TextAnchor.MiddleCenter;
       EditorGUILayout.BeginHorizontal(tableStyle);
       for(var x = 0; x < GameDataInstance.Columns; x++)
       {
