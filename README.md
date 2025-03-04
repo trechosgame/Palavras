@@ -3,21 +3,9 @@
 # CÓDIGO FONTE:
 - 1 https://www.youtube.com/watch?v=AAGuuSVBk8M&list=PLJLLSehgFnspMBk7VaLI18Digsj2xuMhT&index=1
 
-# EXPECTATIVA
-<img src="001.png" width="500px">
-
-# REALIDADE
-<img src="001.png" width="500px">
-
 #
 - 2 https://www.youtube.com/watch?v=M0viZrgunNI&list=PLJLLSehgFnspMBk7VaLI18Digsj2xuMhT&index=2
 
-# EXPECTATIVA
-<img src="001.png" width="500px">
-
-# REALIDADE
-<img src="001.png" width="500px">
-  
 #
 - 3 https://www.youtube.com/watch?v=NwtiYSVplHA&list=PLJLLSehgFnspMBk7VaLI18Digsj2xuMhT&index=3
 
@@ -92,6 +80,13 @@
 #
 - 27 
 
+# Redes Sociais:
+- https://www.instagram.com/trechosgame/
+- https://www.behance.net/trechosgame
+- https://www.colab55.com/@trechosdecodigo
+- https://www.youtube.com/channel/UCfEsOEx_t6hiIms8HzttxOw/featured
+- https://github.com/trechosgame  
+
 # Color Palette:
  - https://mycolor.space
 
@@ -110,9 +105,3 @@
 - https://www.flaticon.com/
 - https://www.pngegg.com/
 
-# Redes Sociais:
-- https://www.instagram.com/trechosgame/
-- https://www.behance.net/trechosgame
-- https://www.colab55.com/@trechosdecodigo
-- https://www.youtube.com/channel/UCfEsOEx_t6hiIms8HzttxOw/featured
-- https://github.com/trechosgame  
