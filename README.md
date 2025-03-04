@@ -1,4 +1,4 @@
-# Cruzadinha
+# Caça Palavras - Word Search
 <img src="001.png" width="500px">
 <img src="002.png" width="500px">
 <img src="003.png" width="500px">
@@ -7,6 +7,13 @@
 
 # CÓDIGO FONTE:
 - 1 https://www.youtube.com/watch?v=AAGuuSVBk8M&list=PLJLLSehgFnspMBk7VaLI18Digsj2xuMhT&index=1
+
+  # EXPECTATIVA
+<img src="001.png" width="500px">
+
+# REALIDADE
+<img src="001.png" width="500px">
+
 #
 - 2 https://www.youtube.com/watch?v=M0viZrgunNI&list=PLJLLSehgFnspMBk7VaLI18Digsj2xuMhT&index=2
 #
