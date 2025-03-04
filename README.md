@@ -31,7 +31,7 @@
 - 4 https://www.youtube.com/watch?v=5XCDkd61-i8&list=PLJLLSehgFnspMBk7VaLI18Digsj2xuMhT&index=4
   
 # EXPECTATIVA
-<img src=VIDEO4_EXPECTATIVA.png" width="500px">
+<img src="VIDEO4_EXPECTATIVA.png" width="500px">
 
 # REALIDADE
 <img src="VIDEO4_REALIDADE.png" width="500px">
