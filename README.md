@@ -22,10 +22,10 @@
 - 3 https://www.youtube.com/watch?v=NwtiYSVplHA&list=PLJLLSehgFnspMBk7VaLI18Digsj2xuMhT&index=3
 
 # EXPECTATIVA
-<img src="001.png" width="500px">
+<img src="VIDEO3_EXPECTATIVA.png" width="500px">
 
 # REALIDADE
-<img src="001.png" width="500px">
+<img src="VIDEO3_REALIDADE.png" width="500px">
 
 #
 - 4 https://www.youtube.com/watch?v=5XCDkd61-i8&list=PLJLLSehgFnspMBk7VaLI18Digsj2xuMhT&index=4
