@@ -1,14 +1,9 @@
 # Caça Palavras - Word Search
-<img src="001.png" width="500px">
-<img src="002.png" width="500px">
-<img src="003.png" width="500px">
-<img src="004.png" width="500px">
-<img src="005.png" width="500px">
 
 # CÓDIGO FONTE:
 - 1 https://www.youtube.com/watch?v=AAGuuSVBk8M&list=PLJLLSehgFnspMBk7VaLI18Digsj2xuMhT&index=1
 
-  # EXPECTATIVA
+# EXPECTATIVA
 <img src="001.png" width="500px">
 
 # REALIDADE
@@ -16,12 +11,40 @@
 
 #
 - 2 https://www.youtube.com/watch?v=M0viZrgunNI&list=PLJLLSehgFnspMBk7VaLI18Digsj2xuMhT&index=2
+
+# EXPECTATIVA
+<img src="001.png" width="500px">
+
+# REALIDADE
+<img src="001.png" width="500px">
+  
 #
 - 3 https://www.youtube.com/watch?v=NwtiYSVplHA&list=PLJLLSehgFnspMBk7VaLI18Digsj2xuMhT&index=3
+
+# EXPECTATIVA
+<img src="001.png" width="500px">
+
+# REALIDADE
+<img src="001.png" width="500px">
+
 #
 - 4 https://www.youtube.com/watch?v=5XCDkd61-i8&list=PLJLLSehgFnspMBk7VaLI18Digsj2xuMhT&index=4
+  
+# EXPECTATIVA
+<img src="001.png" width="500px">
+
+# REALIDADE
+<img src="001.png" width="500px">
+
 #
 - 5 https://www.youtube.com/watch?v=aDTtgv3RgCQ&list=PLJLLSehgFnspMBk7VaLI18Digsj2xuMhT&index=5
+
+# EXPECTATIVA
+<img src="001.png" width="500px">
+
+# REALIDADE
+<img src="001.png" width="500px">
+
 #
 - 6 https://www.youtube.com/watch?v=r4MFdbkIM0M&list=PLJLLSehgFnspMBk7VaLI18Digsj2xuMhT&index=10
 #
