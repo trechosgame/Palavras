@@ -35,6 +35,13 @@
 
 #
 - 6 https://www.youtube.com/watch?v=r4MFdbkIM0M&list=PLJLLSehgFnspMBk7VaLI18Digsj2xuMhT&index=10
+
+# EXPECTATIVA
+<img src="VIDEO6_EXPECTATIVA.png" width="500px">
+
+# REALIDADE
+<img src="VIDEO6_REALIDADE.png" width="500px">
+
 #
 - 7 
 #
